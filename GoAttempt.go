@@ -1,5 +1,7 @@
+// --------------------------------------------------------------------------------
 // Author: Alan Rondoleanu
 // Created: 10/10/2024
+// --------------------------------------------------------------------------------
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or (at
@@ -11,8 +13,7 @@
 // General Public License for more details.
 // You should have received a copy of the GNU General Public License
 // along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
-//
-// ----------------------------------------------
+// --------------------------------------------------------------------------------
 // Description:
 // This program uses two functions.
 // One to translate roman numerals in string format to this numerical value.
@@ -31,7 +32,7 @@
 // 1 <= nums.length <= 810,000
 // -100 <= nums[i] <= 100
 // nums is sorted in non-decreasing order.
-// ----------------------------------------------
+// --------------------------------------------------------------------------------
 
 package main
 
@@ -150,7 +151,4 @@ func removeDuplicates(t_array []int) []int {
 
 func main() {
 
-	var array = removeDuplicates([]int{1, 2, 3, 3, 5, 7, 8, 9})
-	var test = removeDuplicates(array)
-	fmt.Println(test)
 }
